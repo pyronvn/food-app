@@ -37,7 +37,7 @@ const MealItemForm = (props) => {
           defaultValue: "1",
         }}
       />
-      <button onClick={submitHandler}>+ Add</button>
+      <button onClick={submitHandler}>Add</button>
       {!amountIsValid && <p>Please Enter Valid Quantity (1 - 5).</p>}
     </form>
   );
